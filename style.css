@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding:0;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+/* The above specifications are necessary */
+
+header{
+    padding:20px 0px;
+border-bottom: 1px solid;
+}
+
+header .content{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+header ul{
+display: flex;
+align-items: center;
+list-style: none;
+}
+
+header ul li{
+    padding-left:30px;
+}
