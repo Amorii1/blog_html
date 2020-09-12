@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+p{
+    line-height: 1.4;
+    color: #585858;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+/* The above specifications are necessary */
+
+header{
+    padding:20px 0px;
+    border-bottom: 1px solid #a09c9c;
+}
+
+header .content{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+header ul{
+display: flex;
+list-style: none;
+}
+
+header ul li{
+    margin-left:15px;
+}
+
+.title-sec{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top:40px;
+}
+.title-sec span{
+    color: #050505;
+}
+.title-sec small{
+    color: #626161;
+}
+
+
+section.cover {
+    margin-top: 30px;
+}
+section.cover img{
+    width: 100%;
+  }
+
+  section.cover p.caption{
+    color: #777777;
+    margin-top: 20px;
+    font-size: 15px;
+ }
+
+ section.cover p.dots{
+     font-size: 40px;
+     font-family: monospace;
+     margin: 35px ;
+     display: flex;
+     justify-content: center;
+ }
+ section.box-info{
+    margin-bottom: 50px;
+}
+section.box-info h3{
+   margin-bottom: 15px;
+}
+
+footer{
+    background-color: #EEEEEE;
+    padding: 20px 0;
+}
+
+footer .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer p{
+    font-size:15px;
+}
+footer svg{
+    width: 20px;
+}
