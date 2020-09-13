@@ -1,0 +1,63 @@
+@media screen and (max-width: 1067px){
+    .container{
+      margin: 0px 30px;
+    }
+    footer {
+        margin-top: 30px;
+    }
+    header{
+        margin-bottom: 30px;
+    }
+   }
+@media screen and (max-width: 500px) 
+{
+    .title-sec h1{
+font-size:21px;
+    }
+    .title-sec span{
+        font-size:14px;
+    }
+    .title-sec small{
+        font-size:12px;
+    }
+    header h2{
+        font-size:20px;
+    }
+    header ul li{
+        font-size:14px
+    }
+    section.cover p.dots{
+        font-size:30px;
+    }
+    section.box-info h3 {
+        font-size:16px;
+    }
+    footer p{
+        font-size:12px;
+    }
+}
+
+
+   @media screen and (max-width: 800px){
+       .blog-list{
+           grid-template-columns: repeat(2, 1fr);
+           grid-gap: 40px;
+        }
+   }
+   @media screen and (max-width: 550px){
+       .blog-list{
+           grid-template-columns: repeat(1, 1fr);
+        }
+   }
+   @media screen and (max-width: 450px){
+       .home-cover .overlay h1{
+           font-size: 36px;
+       }
+       .home-cover .overlay p{
+           font-size: 20px;
+       }
+   
+       .home-cover{
+           height: 400px;
+       }
+   }
